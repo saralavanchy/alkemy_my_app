@@ -1,32 +1,6 @@
 import React from "react";
 import { data } from "../mocks/data";
 
-const BASEURL = "https://goscrum-api.alkemy.org";
-
-const onSubmit = async (userName = "test", password = "1234", email = "test@test.com", role = "", continent = "", region = "") => {
-    const teamID = "f8805591-e95e-4193-8b66-0a42e8334cee";
-    const user = {
-        userName,
-        password,
-        email,
-        teamID,
-        role,
-        continent,
-        region,
-    }
-    const response = await fetch(`${BASEURL}/register`, {
-        method: "POST",
-        header: {
-            "Access-Control-Allow-Origin": "*",
-            "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ user })
-    });
-};
-const doAction = () => {
-
-}
-
 const GridCell = ({ children, className }) => {
     return (
         <div
@@ -58,7 +32,7 @@ const GridRows = ({ doAction, user }) =>
         <GridCell>{user.phone}</GridCell>
         <GridCell className="col-span-2">{user.pet}</GridCell>
         <GridCell>
-            <button onClick={() => onSubmit()} className=" w-full mx-2 text-cyan-700 uppercase border border-cyan-700 rounded p-2 hover:bg-cyan-200">
+            <button onClick={() => doAction()} className=" w-full mx-2 text-cyan-700 uppercase border border-cyan-700 rounded p-2 hover:bg-cyan-200">
                 action
             </button>
         </GridCell>

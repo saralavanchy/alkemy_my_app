@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/alkemy_my_app/static/css/main.b396ac1d.css",
-    "main.js": "/alkemy_my_app/static/js/main.b7291161.js",
+    "main.js": "/alkemy_my_app/static/js/main.0a90547a.js",
     "static/js/787.96fee0dc.chunk.js": "/alkemy_my_app/static/js/787.96fee0dc.chunk.js",
     "static/media/logo.svg": "/alkemy_my_app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/alkemy_my_app/index.html",
     "main.b396ac1d.css.map": "/alkemy_my_app/static/css/main.b396ac1d.css.map",
-    "main.b7291161.js.map": "/alkemy_my_app/static/js/main.b7291161.js.map",
+    "main.0a90547a.js.map": "/alkemy_my_app/static/js/main.0a90547a.js.map",
     "787.96fee0dc.chunk.js.map": "/alkemy_my_app/static/js/787.96fee0dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b396ac1d.css",
-    "static/js/main.b7291161.js"
+    "static/js/main.0a90547a.js"
   ]
 }
