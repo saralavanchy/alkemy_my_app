@@ -2,7 +2,7 @@
   "name": "alkemy_my_app",
   "version": "0.1.1",
   "private": false,
-  "homepage": "https://saralavanchy.github.io/alkemy_my_app/index.html",
+  "homepage": "https://saralavanchy.github.io/alkemy_my_app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
