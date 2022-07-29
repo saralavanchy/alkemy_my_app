@@ -1,7 +1,8 @@
+import React from "react"
 
-const baseFlexbox = (isOriental) => `flex ${ isOriental ? "flex-row-reverse" : "" } p-6`
+const baseFlexbox = (isOriental) => `flex ${isOriental ? "flex-row-reverse" : ""} p-6`
 
-const Modal = ({isOriental = false}) => (
+const Modal = ({ isOriental = false }) => (
     <div className="rounded border divide-y border-blue-700 w-1/2 shadow-md">
         <div className={`${baseFlexbox(isOriental)} justify-between`}>
             <p className="capitalize">title</p>
